@@ -46,6 +46,8 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        //シーンが変わっても破壊されない
+        DontDestroyOnLoad(this);
         // BGM用 AudioSource追加
         bgmSources[0] = gameObject.AddComponent<AudioSource>();
         bgmSources[1] = gameObject.AddComponent<AudioSource>();
