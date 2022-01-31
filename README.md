@@ -15,9 +15,6 @@ BGMやSEを一括管理できる。
 動作確認済み
 Unity 2021.1.10f
 
-```bash
-pip install AudioManager_package
-```
 
 # Usage
 
